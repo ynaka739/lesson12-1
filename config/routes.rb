@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
-  get 'sessions/new'
+  # get 'sessions/new'
 
-  get 'sessions/create'
+  # get 'sessions/create'
 
-  get 'sessions/destroy'
+  # get 'sessions/destroy'
 
   # get 'users/index'
 
@@ -13,7 +13,7 @@ Rails.application.routes.draw do
 
   # get 'users/create'
 
-  # get 'toppages/index'
+  get 'toppages/index'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   # root to: 'tasks#index'
