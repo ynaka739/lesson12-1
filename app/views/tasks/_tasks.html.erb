@@ -10,10 +10,10 @@
           <%= link_to user.name, user_path(user) %> <span class="text-muted">posted at <%= task.created_at %></span>
         </div>
         <div>
-          <p><%= task.content %></p>
+          <p><%= 'ステータス: ' %><%= task.status %></p>
         </div>
         <div>
-          <p><%= task.status %></p>
+          <p><%= 'タスク: ' %><%= task.content %></p>
         </div>
         <div>
           <% if current_user == task.user %>
